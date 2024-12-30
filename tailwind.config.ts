@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'sand': '#CEBF8E'
+        'sand': '#CEBF8E',
+        'lightbrown': '#DCCEA1',
+        'darkbrown': '#614115',
       }
     },
   },
