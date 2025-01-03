@@ -1,13 +1,12 @@
 export default function About() {
     return(
-        <div className="bg-darkbrown h-auto">
-            <div>
-                <div className="h-screen w-full flex flex-row">
-                    <div className="w-1/2">
-                        <h1>
+        <div className="bg-darkbrown h-auto flex-col">
+                <div className="h-screen flex flex-row-2 w-full place-items-center content-center">
+                    <div className="w-1/2  place-items-center content-center">
+                        <h1 className="font-bold text-6xl mb-6 text-center">
                             Who we are
                         </h1>
-                        <p>
+                        <p className="w-3/4 text-3xl font-semibold text-left">
                         The Saturday Hike Crew began as a few friends hiking on Saturdays together and quickly blossomed into a thriving community of adventurers. 
                         Started in 2022 and officially launching in 2023, we&apos;ve grown by thousands and have proudly introduced hundreds to the beauty of the outdoors.
 
@@ -17,14 +16,13 @@ export default function About() {
 
                         </p>
                     </div>
-                    <div className="w-1/2">
-                        <img src="./about.webp" width={500} height={500}/>
+                    <div className="w-1/2 text-center place-items-center content-center">
+                        <img  className="rounded-2xl drop-shadow-2xl" src="./about.webp" width={500} height={500}/>
                     </div>
                 </div>
-                <div>
+                <div className="text-center place-items-center content-center text-6xl font-bold">
                     Collaborations
                 </div>
-            </div>
             
         </div>
     )
