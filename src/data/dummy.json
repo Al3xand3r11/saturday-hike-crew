@@ -1,0 +1,31 @@
+{
+    "hikes" :[
+        {
+            "id": "1",
+            "location": "Ascot Hills",
+            "date": "04-29-2025",
+            "coordinates": "41.59225,-93.605060",
+            "difficulty": "1",
+            "rsvpOpen":"False",
+            "recap":""
+        },
+        {
+            "id": "2",
+            "location": "Temescal Canyon",
+            "date": "05-05-2025",
+            "coordinates": "41.59225,-93.605060",
+            "difficulty": "4",
+            "rsvpOpen":"True",
+            "recap":""
+        },
+        {
+            "id": "3",
+            "location": "Runyon Canyon",
+            "date": "05-12-2025",
+            "coordinates": "41.59225,-93.605060",
+            "difficulty": "2",
+            "rsvpOpen":"True",
+            "recap":""
+        }
+    ]
+}
